@@ -4,7 +4,7 @@ output "Instance_public_ip" {
   value = aws_instance.ABC.public_ip
 }
 
-#output "Instance_public_dns" 
+#output "Instance_public_dns IP" 
 output "Instance_public_dns" {
     description = "Public Dns"
     value = aws_instance.ABC.public_dns
